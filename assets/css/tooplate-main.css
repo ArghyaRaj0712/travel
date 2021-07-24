@@ -155,7 +155,7 @@ body {
 }
 
 nav {
-	top: 17%;
+	top: 14%;
   text-align: center;
   background: rgba(0, 0, 0, 0.75);
   position: fixed;
@@ -235,7 +235,7 @@ nav a::before {
  	display: inline-block;
   text-align: center;
 	background-color: #faf5b2;
-	height: 17%;
+	height: 14%;
 	width: 15%;
 }
 .logo h1 {
