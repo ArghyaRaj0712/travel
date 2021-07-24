@@ -155,7 +155,7 @@ body {
 }
 
 nav {
-	top: 15%;
+	top: 14%;
   text-align: center;
   background: rgba(0, 0, 0, 0.75);
   position: fixed;
@@ -235,7 +235,7 @@ nav a::before {
  	display: inline-block;
   text-align: center;
 	background-color: #faf5b2;
-	height: 15%;
+	height: 14%;
 	width: 15%;
 }
 .logo h1 {
@@ -261,6 +261,9 @@ nav a::before {
   transition: -webkit-transform 0.8s ease;
   transition: transform 0.8s ease;
   transition: transform 0.8s ease, -webkit-transform 0.8s ease;
+  -moz-transition: -webkit-transform 0.8s ease;
+  -ms-transition: -webkit-transform 0.8s ease;
+  -o-transition: -webkit-transform 0.8s ease;
 }
 .slides .slide {
   height: 100vh;
